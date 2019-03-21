@@ -9,3 +9,5 @@ attempt to apply non-function,You have tried to use an object which is not a fun
 unexpected symbol in,You might have made a syntax error.
 cannot open file .* : No such file or directory,You might have tried a path that doesn't exist.
 Error in match.arg,You might have tried to use arguments which are not usable in this function.
+Error in c("colname1", ) : argument 2 is empty,You might forgot the second argument
+Error in melt_check(data, id.vars, measure.vars, variable.name, value.name) : object 'IDG' not found,You might forgot to declare a correct variable name (EG : not melt_form <- reshape2::melt(df_form, id=IDG) but melt_form <- reshape2::melt(df_form, id='IDG')
